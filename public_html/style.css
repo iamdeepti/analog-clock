@@ -1,0 +1,40 @@
+.circle{
+    stroke: black;
+    stroke-width:9 ;
+    fill:none;
+}
+.mid-circle{
+    fill:black;
+}
+.hour-arm
+{
+    stroke: black;
+    stroke-width: 12;
+    fill:black;
+}
+.minute-arm
+{
+    stroke: black;
+    stroke-width: 11;
+    fill:black;
+}
+.second-arm
+{
+    stroke: black;
+    stroke-width: 10;
+    fill:black;
+}
+.sizing-box{
+    fill:none;
+}
+#hour,
+#minute,
+#second {
+    transform-origin: 300px 300px;
+    transition: transform 5s ease-in-out;
+}
+.hour-marks{
+    stroke: black;
+    stroke-width: 4;
+    fill:black;
+}
